@@ -2,7 +2,7 @@
   "description": "a new concept of mailto and tel links",
   "manifest_version": 2,
   "name": "mailgo",
-  "version": "0.9.15",
+  "version": "0.9.16",
   "homepage_url": "https://mailgo.dev",
   "permissions": [],
   "icons": {
