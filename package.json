@@ -1,0 +1,66 @@
+{
+  "name": "mailgo-chrome-extension",
+  "version": "0.11.1",
+  "description": "a new concept of mailto and tel links",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manzinello/mailgo-chrome-extension.git"
+  },
+  "main": "./mailgo.js",
+  "keywords": [
+    "mailgo",
+    "chrome-extension"
+  ],
+  "author": {
+    "name": "Matteo Manzinello",
+    "email": "matteo@manzinello.dev",
+    "url": "https://matteomanzinello.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manzinello/mailgo-chrome-extension/issues"
+  },
+  "homepage": "https://mailgo.dev",
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/parser": "^7.12.7",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-typescript": "^7.12.7",
+    "@babel/types": "^7.12.7",
+    "@types/node": "^14.14.9",
+    "autoprefixer": "^10.0.2",
+    "babel-loader": "^8.2.1",
+    "css-loader": "^5.0.1",
+    "css-minimizer-webpack-plugin": "^1.1.5",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-prettier": "^3.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.1.10",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.0.3",
+    "to-string-loader": "^1.1.6",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.1.2",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "mailgo": "^0.11.1"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/mailgo"
+  },
+  "sideEffects": false
+}
